@@ -32,7 +32,5 @@ To Visit App:
 `localhost:3000/`  
 
 ## Reflection
-    - I have never implemented an infinitely scrolling web application before, I've only ever used standard breadcrumb pagination. This was a challenging but valuable experience as it gave me more 
-        insight in how much utility React hooks have (especially using useRef and useCallback to locate elements when scrolling)
-    - This is also my first time using styled componenets. Most of my past work has been done using SASS modules, but I figured styled components would be a good way to add CSS to this project as it 
-        if fairly small in scope. I will definitely be researching more and figuring out how to best structure those styles for easier readability and reuse.
+- I have never implemented an infinitely scrolling web application before, I've only ever used standard breadcrumb pagination. This was a challenging but valuable experience as it gave me more insight in how much utility React hooks have (especially using useRef and useCallback to locate elements when scrolling)
+- This is also my first time using styled componenets. Most of my past work has been done using SASS modules, but I figured styled components would be a good way to add CSS to this project as it if fairly small in scope. I will definitely be researching more and figuring out how to best structure those styles for easier readability and reuse.
