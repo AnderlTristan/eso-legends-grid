@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Card = ({name, text, type, setName, imageUrl}) => {
     return (
-        <StyledCard className="card">
+        <StyledCard className="card" data-testid="card">
             <h2 className="card__title">{name}</h2>
             <div className="card__image"><img src={imageUrl}/></div>
             <div className="card__detail-wrapper">

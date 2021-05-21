@@ -43,7 +43,7 @@ const App = () => {
 				<label className="textInput__label">Search for card</label>
 				<input className="textInput__input" type="text" onChange={handleSearch} value={query} placeholder="Card name"></input>
 			</div>
-			<CardContainer>
+			<CardContainer data-testid="cardContainer">
 				{cards.map((card, index) => {
 					// check if current index is last index of most recent query
 					// if last index, set ref attribute to use in useCallback hook
