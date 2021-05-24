@@ -199,6 +199,8 @@ const StyledTextInputContainer = styled.div`
 	padding: 0.5em 0.75em;
 	transition: box-shadow 0.3s ease, border-color 0.3s ease;
 	box-shadow: 17px 17px 27px #1a1a1a, -17px -17px 27px #2a2a2a;
+	width: 187px;
+	box-sizing: border-box;
   }
 
   .textInput__icon {
