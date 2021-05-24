@@ -1,6 +1,6 @@
 ## ESO Legends Card Grid
 
-Front end web application used to display an infinitely scrolling grid of cards from the Elder Scrolls Online Legends API using React. 
+Front end web application used to display an infinitely scrolling grid of Elder Scrolls Online cards from the Elder Scrolls Online Legends API using React. 
 
 ## TODO
 - More components
