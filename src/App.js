@@ -183,7 +183,9 @@ const StyledTextInputContainer = styled.div`
 	z-index: 1;
 
 	@media only screen and (max-width: 767px) {
-		width: fit-content;
+		width: 187px;
+		align-items: center;
+		justify-content: center;
 	}
   
   .textInput__input {
