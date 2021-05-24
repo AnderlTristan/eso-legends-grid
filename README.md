@@ -3,9 +3,15 @@
 Front end web application used to display an infinitely scrolling grid of cards from the Elder Scrolls Online Legends API using React. 
 
 ## TODO
+- More components
+    - create new component modules for the following:
+        - Text Input
+        - Select
+        - Header
+        - Card Grid
 - Create more custom hooks
     - Separate logic and rendering by creating hooks for infinite scrolling and text input fields
-- More unit testing
+- More testing
 - New UI features
     - Pull icons from ESO website to display more information on cards 
     - Modal to show more information about a card on click 

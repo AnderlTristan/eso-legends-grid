@@ -1,11 +1,16 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios'
+// utility
+import cardSort from '../utility/cardSort';
 
-export default function useFetch(query, pageNumber, limit) {
+export default function useFetch(query, pageNumber, limit, sortParam) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
     const [cards, setCards] = useState([]);
     const [hasMore, setHasMore] = useState(false);
+
+    // Sort cards each fetch based on state of sort param
+    if(sortParam !== "DEFAULT") cardSort(cards, sortParam);
 
     // Prevent old search results from displaying as query gets longer
     useEffect(() => {
